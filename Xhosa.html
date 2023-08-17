@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kwiPargo International</title>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#home">Ekhaya</a></li>
+                
+            <li><a href="#about">Malunga</a></li>
+            <li><a href="#Objectives">Iinjongo</a></li>
+            <li><a href="#Why">Ngoba</a></li>
+            <select id="destination" onchange="redirectToSelectedOption()">
+                <option value=“” disabled selected>Select an option</option>
+                <option value="Final Project.html">English</option>
+                <option value=“https://www.openai.com”>Afrikaans</option>
+                <option value=“https://www.google.com”>Zulu</option>
+              </select> </li> 
+            
+        </ul>
+    
+    </nav>
+
+    <!-- Main Content -->
+    <header>
+        <h1>Wamkelekile kwiPargo International</h1>
+        <p>Isisombululo sakho sokumisa esinye sokuqokelelwa kwepasile kube lula kwaye kulula phantsi kweambrela enye. IiPuppas zifumene iTwang entsha kraca!</p>
+    </header>
+
+    <section>
+        <h2>Ngathi</h2>
+        <p>I-Pargo Intenational, eyilelwe ukudala ufikelelo nokunceda bonke abemi boMzantsi Afrika ukuba baqokelele iipasile ze-intanethi nanini na naphina naphi na apho bakhoyo. Igxile ikakhulu kwiinkcubeko ezingafaniyo zelizwe inceda abathengi ukuba baqonde ishishini kwaye bathethe isiPargo ngolwimi lwabo. ihlabathi ngesaqhwithi!
+        </p>
+    </section>
+
+    <section>
+        <h2>Iinjongo</h2>
+        <ul>
+            <li>Ukuncedisa kwimiqobo yoLwimi nokuqonda iinkcubeko ezahlukeneyo</li>
+            <li>Ukufundisa i-LSM esezantsi kulwazi lwemveliso</li>
+            <li>Nceda amashishini akhule ngelixa ezalisekisa amanyathelo aphambili enkampani</li>
+
+        
+    </section>
+
+    <section>
+        <h2>Ngoba</h2>
+        <p>Ngokuqonda iimfuno zabathengi oku kuya kusinceda sakhe uthungelwano olusebenziseka lula ngakumbi kwaye silungelelanise neemfuno zabo, ngokulitmately ekhokelela ekonyukeni kwenkcitho yabathengi, ukufumana umanyano lophawu olomeleleyo kwiimveliso eziqhutywa yimarike eziya kusinceda singene kwimarike esiyifunayo.
+        </p>
+    </section>
+
+    <section>
+        <h2>Iilwimi</h2>
+        <p>Ngabemi boMzantsi Afrika abangaphezu kwezigidi ezingama-60 kunye neelwimi ezili-12 ezisemthethweni kwilizwe lonke, umntu unokuthelekelela umceli mngeni ezininzi ezijongene nawo ngoku. Iilwimi ezohlukeneyo zenza kube nzima ngakumbi xa kuthathelwa ingqalelo ezi lwimi zamazwe ethu ngaphandle kwabemi bamazwe angaphandle nto leyo esongeza kwidyanmic eyongezelelweyo. Ukufundisa isizwe kufuneka siqale kwinqanaba lengca. Ubulula ngundoqo, kungoko ndigcine iwebhusayithi ilula kwaye isebenziseka ngokulula.</p>
+    </section>
+
+    <!-- Images -->
+    <div class="image-container">
+        <img src="Images/Xhosa educational.JPG"> 
+     <img src="Images/Xhosa educational 2.JPG"> 
+     <img src="Images/Pargo drive through.jpg"> 
+    </div>
+
+    <!-- Link -->
+    <p>Funda ngakumbi malunga neenkonzo zethu kwiWebhusayithi yethu <a href="https://pargo.co.za/click-and-collect/">iwebhusayithi</a>.</p>
+
+    <!-- Internal CSS -->
+    
+    <script>
+        function redirectToSelectedOption() {
+          const selectElement = document.getElementById("destination");
+          const selectedValue = selectElement.value;
+          if (selectedValue) {
+            window.location.href = selectedValue;
+          }
+        }
+      </script>
+</body>
+</html>
